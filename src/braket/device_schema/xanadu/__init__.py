@@ -9,10 +9,14 @@
 # or in the "license" file accompanying this file. This file is
 # distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
 # ANY KIND, either express or implied. See the License for the specific
-# language governing permissions and limitations under the License.
+# language governing permissions and limitations under the License
 
-"""Version information.
-   Version number (major.minor.patch[-label])
-"""
-
-__version__ = "1.10.1.dev0"
+from braket.device_schema.xanadu.xanadu_device_capabilities_v1 import (  # noqa: F401
+    XanaduDeviceCapabilities,
+)
+from braket.device_schema.xanadu.xanadu_device_parameters_v1 import (  # noqa: F401
+    XanaduDeviceParameters,
+)
+from braket.device_schema.xanadu.xanadu_provider_properties_v1 import (  # noqa: F401
+    XanaduProviderProperties,
+)
